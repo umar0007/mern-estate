@@ -1,0 +1,4 @@
+'text-3xl text-center font-semibold'
+'border p-3 rounded-lg'
+'flex flex-col gap-4'
+'p-3 mx-auto max-w-lg'

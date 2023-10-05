@@ -1,8 +1,8 @@
 // import React from 'react'
-import { FaSearch } from "react-icon/fa";
+import { FaSearch } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
-export default function header() {
+export default function Header() {
   return (
     <header className='bg-slate-200 shadow-md'>
         <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>

@@ -9,6 +9,6 @@ export const signup = async(req, res, next) => {
         res.status(201).json('user created succefully...!');
 
     } catch ( error ) {
-        next(errorHandler(500, "This error is due to a function...!"));
+        next(error);
     }
  }
